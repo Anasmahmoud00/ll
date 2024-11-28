@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  lab9main:
+    image: lab9main
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
